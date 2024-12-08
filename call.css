@@ -1,0 +1,57 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: url('call.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    
+          
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+/* Card Styles */
+.card {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(117, 80, 80, 0.5) !important;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+}
+
+/* Modal Styles */
+.modal-body {
+    max-height: 300px;
+    overflow-y: auto;
+}
